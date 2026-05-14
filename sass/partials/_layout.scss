@@ -1,0 +1,10 @@
+// Layout variables partial
+
+$section-padding: 40px 0;
+
+section.intro, section.photos, section.rsvp {
+	background: $section-dark;
+}
+section.itinerary, section.venue {
+	background: $section-light;
+}

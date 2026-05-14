@@ -1,0 +1,415 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Sarah & Phil</title>
+    <meta name="description" content="You are invited.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffb6c1">
+    <meta property="og:title" content="Sarah & Phil">
+    <meta property="og:description" content="We would like to invite you to our big day.">
+    <meta property="og:image" content="https://sarahandphil.ca/img/hero-min.jpg">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+
+    <script>
+        // load css files from CDN if local node_modules fail
+        function loadCssFromCDN(css) {
+            // create new link tag
+            const link = document.createElement('link');
+            if (css === 'animate.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
+            } else if (css === 'font-awesome.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+            }
+            link.rel = 'stylesheet';
+
+            // add link tag to head section
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+
+        // load js files from CDN if local node_modules fail
+        function loadJsFromCDN(js) {
+            if (js === 'waypoints.js') {
+                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
+            } else if (js === 'jquery.js') {
+                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<section class="navigation">
+    <header>
+        <div class="header-content">
+            <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+            <div class="header-nav">
+                <nav>
+                    <ul class="primary-nav">
+                        <li><a href="#intro">Our Journey</a></li>
+                        <li><a href="#itinerary">Itinerary</a></li>
+                        <li><a href="#photos">Photos</a></li>
+                    </ul>
+                    <ul class="member-actions">
+                        <li><a href="#map" class="login">Venue</a></li>
+                        <li><a href="#rsvp" class="btn-white btn-small" onclick="this.blur();">RSVP</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="navicon">
+                <a class="nav-toggle" href="#"><span></span></a>
+            </div>
+        </div>
+    </header>
+</section>
+<section class="hero">
+    <video class="heroVideo" autoplay muted loop id="heroVideo" width="auto" height="100%">
+        <source src="img/hero_pink.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="hero-content text-center">
+        <h1>Sarah <span style=font-size:48px>&</span> Philip</h1>
+        <h3>September 6, 2026</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-3">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="intro section-padding" id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Our Journey</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/about_sarah.png" class="wp1"></div>
+            <div class="col-md-6">
+                <p>Sarah and Phil met at a boxfit class in early 2020 through a mutual friend and then lost touch during a global pandemic before exchanging contact information.</p>
+                <p>Months later, Sarah (through some encouragement) took matters into her own hands and added him on Facebook. They began writing each other what can only be described as essay-length messages about life, hobbies, and everything in between. Neither of them was fully convinced the other person liked the other romantically (despite talking constantly).</p>
+                <p>They finally went for lunch (outside during the lockdown), and things started becoming a little more obvious. Many messages later, just before Christmas, Phil gave Sarah a gift filled with thoughtful snacks and items from their conversations, along with a letter confessing his love.</p>
+                <p>Almost six years later, they are still best friends, making each other laugh, and still grateful they found each other.</p>
+            </div>
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/about_phil.png" class="wp2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/about_sarah.png" class="wp8"></div>
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/about_phil.png" class="wp9"></div>
+        </div>
+    </div>
+</section>
+
+<section class="itinerary section-padding" id="itinerary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Itinerary</h3>
+            </div>
+            <table class="itinerary-table" id="itinerary-table" border="0" cellpadding="3">
+            <tr>
+                <td><h4>💍 Ceremony</h4></td>
+                <td><h4>4:30pm - 5:00pm</h4></td>
+            </tr>
+             <tr>
+                <td><h4>🍸 Cocktail Hour</h4></td>
+                <td><h4>5:00pm - 6:00pm</h4></td>
+            </tr>
+            <tr>            
+                <td><h4>🍽️ Reception</h4></td>
+                <td><h4>6:00pm - 1:00am</h4></td>
+            </tr>
+            </table>
+        </div>
+        <div class="row section-padding">
+            <h3 class="text-center section-padding">Dress Code</h3>
+            <h4 class="text-center">👗 Formal Attire</h4>
+        </div>
+        <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+    </div>
+</section>
+<section class="photos section-padding" id="photos">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Photos</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/pics/photo1.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay"></div>
+                        <img src="img/pics/photo1_sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/pics/photo2.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay"></div>
+                        <img src="img/pics/photo2_sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/pics/photo3.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay"></div>
+                        <img src="img/pics/photo3_sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/pics/photo4.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay"></div>
+                        <img src="img/pics/photo4_sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/pics/photo5.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay"></div>
+                        <img src="img/pics/photo5_sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/pics/photo6.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay"></div>
+                        <img src="img/pics/photo6_sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row hidden-lg hidden-md hidden-xs">
+            <div class="col-xs-12 section-border section-padding"></div>
+        </div>
+    </div>
+    <section id="map-padding" class="section-padding"></section>
+</section>
+
+<section class="venue section-padding" id="map">
+    <div class="text-center">
+        <h3>Venue</h3>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 leftcol" style="text-align: center;">
+             <div class="wp3">
+                <div class="img-wrap">
+                        <img src="img/oldmill.jpg" alt=""/>
+                </div>
+                <h4>Old MIll Toronto Event Venue</h4>
+                <p>21 Old Mill Rd<br>Toronto, ON<br>M8X 1G5</p>
+
+                <p>Ceremony will be in the Garden<br>Reception will be in the Guildhall</p>
+            </div>
+        </div>
+        <div class="wp4 col-md-6 col-sm-12 col-xs-12 rightcol" style="text-align: center;">
+            <iframe
+                width="95%"
+                height="500"
+                style="border:0"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5773.808471024518!2d-79.49283027842388!3d43.65016072763321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b36f545c00001%3A0x14c36a3d0707ca14!2sOld%20Mill%20Toronto%20Event%20Venue!5e0!3m2!1sen!2sca!4v1778750367375!5m2!1sen!2sca">
+            </iframe>
+        </div>
+    </div>
+</section>
+<section class="venue section-padding" id="travel">
+    <div class="text-center">
+        <h3>Travel</h3>
+        <div class="row">
+            <div class="wp5">
+                <div class="col-md-6 col-sm-12 col-xs-12 leftcol" style="text-align: center;">
+                    <h5>Subway</h5>
+                    <p>The venue is a short walk from Old Mill Subway Station on Line 2 of the TTC.</p>
+                    <a class="fancybox" rel="group" href="img/subway.png">
+                        <div class="img-wrap">
+                            <div class="overlay"></div>
+                            <img src="img/subway_sm.png" alt=""/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="wp6">
+                <div class="col-md-6 col-sm-12 col-xs-12 rightcol" style="text-align: center;">
+                    <h5>Driving</h5>
+                    <p>There is a parking lot located across the street from the Venue.<br>Please RSVP with Parking Required and we will provide you with a parking pass.</p>
+                    <a class="fancybox" rel="group" href="img/parkinglot.png">
+                        <div class="img-wrap">
+                            <div class="overlay"></div>
+                            <img src="img/parkinglot_sm.png" alt=""/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="rsvp text-center" id="rsvp">
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Thank you!</h3>
+                        <p>We are happy you can join us on our big day!</p>
+                        <div id="add-to-cal"></div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div class="container">
+        <h3>RSVP</h3>
+        <p>We would greatly appreciate it if you could RSVP before August 6th, 2026</p>
+        <div class="col-md-12">
+            <form id="rsvp-form" class="rsvp-form"
+                    action=""
+                    method="POST">
+                <div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-input-group">
+                                <i class="fa fa-envelope"></i>
+                                <input type="email" name="email" class=""
+                                    placeholder="Your email"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-input-group">
+                                <i class="fa fa-car"></i>
+                                    <select id="parking" name="parking" >
+                                        <option value="No">No Parking</option>
+                                        <option value="Yes">Parking Required</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i>
+                                <input type="text" name="invite_code"
+                                    id="invite_code"
+                                    placeholder="Invite code"
+                                    required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i>
+                                <input name="name"
+                                    placeholder="Full name"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                                <div class="form-input-group">
+                                    <i class="fa fa-cutlery"></i>
+                                    <select id="meal" name="meal" >
+                                        <optgroup label="Adult">
+                                            <option value="Chicken">Chicken</option>
+                                            <option value="Beef">Beef</option>
+                                            <option value="Vegetarian">Vegetarian</option>
+                                        </optgroup>
+                                        <optgroup label="Child">
+                                            <option value="Child_Chicken">Chicken Fingers and Fries</option>
+                                            <option value="Child_Penne">Penne with Tomato Sauce</option>
+                                            <option value="Child_Mac">Macaroni and Cheese</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-input-group">
+                                <i class="fa fa-exclamation"></i>
+                                <input name="allergies"
+                                    placeholder="Food Allergies">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="rsvprows">
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="alert-wrapper"></div>
+                </div>
+                <div class="row">
+                    <input type="button" id="addPerson" value="+" class="btn-fill increment-btn" onclick="this.blur();">
+                    <input type="button" id="removePerson" value="-" class="btn-fill increment-btn" onclick="this.blur();">
+                </div>
+                <button class="btn-fill rsvp-btn" type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                <p>Sarah<span class="fa fa-heart pulse2"></span>Phil</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="js/vendor/ouical.js"></script>
+<script src="js/scripts.min.js"></script>
+</body>
+</html>
